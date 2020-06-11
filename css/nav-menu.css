@@ -1,0 +1,33 @@
+#nav-menu{
+	display: flex;
+	width:80%;
+	justify-content: center;
+	border-top: solid 1px #CCC;
+}
+
+#nav-menu a.link{
+	font-family: Amiko, sans-serif;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	color: black;
+	text-decoration: none;
+	display:  block;
+	padding: 1.2rem 1.2rem 1rem 1.2rem;
+	border-bottom: 3px solid white;
+	text-align: center;
+}
+
+#nav-menu a.link:hover{
+	background-color: #CCC;
+	border-bottom: 3px solid balck!important;
+}
+
+#nav-menu a.link:active, #nav-menu a.link.active{
+	background-color: #CCC;
+	border-bottom: 3px solid black;
+}
+
+.logo{
+	text-align: center;
+
+}
